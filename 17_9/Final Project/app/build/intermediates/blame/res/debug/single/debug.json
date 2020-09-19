@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_email_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/email_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_warning.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/warning.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_logo.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/logo.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_post_form.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/post_form.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout_activity_launcher.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout/activity_launcher.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_logo_nha_tho_duc_ba.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/logo_nha_tho_duc_ba.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_baseline_warning_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ic_baseline_warning_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_logo_skype.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/logo_skype.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_search_house.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/search_house.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_logo_help.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/logo_help.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_register.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/register.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_background.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/background.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_close_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/close_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_calendar_today_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/calendar_today_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_ic_baseline_warning_22.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/ic_baseline_warning_22.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_call_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/call_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_logoapp.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/logoapp.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_logout.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/logout.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_facebook.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/facebook.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bookmark_border_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/bookmark_border_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout_chat_box.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout/chat_box.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout_marker.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout/marker.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_housemapicon.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/housemapicon.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_bookmark_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/bookmark_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_send_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/send_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_chat_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/chat_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_bookmark_border_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/bookmark_border_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_instagram.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/instagram.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_newback.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/newback.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_calendar_today_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/calendar_today_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_message_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/message_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_location.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/location.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_instagram.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/instagram.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_money_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/money_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_baseline_warning_22.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ic_baseline_warning_22.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_gradient.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/gradient.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_logo_cho_ben_thanh.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/logo_cho_ben_thanh.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_add_house.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/add_house.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_progressbar.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/progressbar.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_phonebook.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/phonebook.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_call_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/call_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_edit_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/edit_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_description.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/description.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_close_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/close_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_housemap.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/housemap.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_logo_nha_tho_duc_ba.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/logo_nha_tho_duc_ba.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_logo_skype.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/logo_skype.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_directions_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/directions_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_phonebook.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/phonebook.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_bookmark_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/bookmark_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout_message.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout/message.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_email_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/email_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_post_form.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/post_form.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_facebook.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/facebook.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_add_a_house.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/add_a_house.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_lock_open_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/lock_open_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_background.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout-v23_activity_maps.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout-v23/activity_maps.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_ic_baseline_warning_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/ic_baseline_warning_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_directions_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/directions_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout_emergency_level_spinner.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout/emergency_level_spinner.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_logo_cho_ben_thanh.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/logo_cho_ben_thanh.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_twitter.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/twitter.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_help.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/help.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_done_outline_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/done_outline_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_baseline_lock_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_warning.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/warning.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_location.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/location.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_people_alt_24_green.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/people_alt_24_green.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_image.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/image.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_house.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/house.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_people_alt_24_green.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/people_alt_24_green.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_newback.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/newback.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_background.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_logo_ben_nha_rong.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/logo_ben_nha_rong.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_twitter.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/twitter.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ciu.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/ciu.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_add_photo_alternate_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/add_photo_alternate_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_ciu.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/ciu.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_logout.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/logout.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_description.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/description.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_lock_open_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/lock_open_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_done_outline_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/done_outline_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_logo_help.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/logo_help.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_ic_baseline_lock_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_progressbar.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/progressbar.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_delete_outline_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/delete_outline_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/layout-v23_detail_request.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/layout-v23/detail_request.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_location_on_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/location_on_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_register.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/register.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_gradient.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/gradient.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_background.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/background.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/anim_fade_out.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_logo_ben_nha_rong.jpg.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/logo_ben_nha_rong.jpg"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_image_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/image_24.xml"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable_form_back.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable/form_back.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_help.png.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/mipmap-xxhdpi/help.png"
+    },
+    {
+        "merged": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/build/intermediates/res/merged/debug/drawable-v24_message_24.xml.flat",
+        "source": "/home/khang/Documents/ProjectFinal/17_9/Final Project/app/src/main/res/drawable-v24/message_24.xml"
+    }
+]

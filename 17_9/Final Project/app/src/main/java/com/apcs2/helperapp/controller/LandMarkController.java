@@ -624,39 +624,22 @@ public class LandMarkController {
         landMarkRepository.remove(position);
     }
 
-    public void searchLandMark(String _stringSearch) {//tri viet
-        int max_danger = 0;
-        boolean isFind = false;
-        boolean isOk = false;
-        LandMark result = null;
-        //    Log.e(TAG, "landmark size: " + String.valueOf(landmarks.size()));
-        //    Log.e(TAG, "querry: " + _stringSearch);
-        int size = landMarkRepository.countItems();
-        if (size != 0) {
-            for (int i = 0; i < size; i++) {
-                LandMark landmark = landMarkRepository.getByPosition(i);
-                isFind = landmark.getName().contains(_stringSearch);
-                int level = Integer.valueOf(landmark.getCategory());
-                if (isFind == true && level > max_danger) {
-                    isOk = true;
-                    result = landmark;
-                    max_danger = level;
+    public void searchLandMark(String location) {//tri viet
+        List<Address> addressList = null;
 
-                }
+        if (location != null || !location.equals("")) {
+            Geocoder geocoder = new Geocoder(context.getApplicationContext());
+            try {
+                addressList = geocoder.getFromLocationName(location, 1);
+
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        } else {
-            Toast.makeText(context,
-                    context.getString(R.string.no_string),
-                    Toast.LENGTH_SHORT
-            ).show();
-        }
-        if (isOk) {
-            gotoLocation(result.getLatLng());
-        } else {
-            Toast.makeText(context,
-                    context.getString(R.string.no_address),
-                    Toast.LENGTH_SHORT
-            ).show();
+            Address address = addressList.get(0);
+            LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
+            mMap.addMarker(new MarkerOptions().position(latLng).title(location));
+            mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
+            Toast.makeText(context.getApplicationContext(),address.getLatitude()+" "+address.getLongitude(),Toast.LENGTH_LONG).show();
         }
     }
 
