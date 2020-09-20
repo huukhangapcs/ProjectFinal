@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/chat_box" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.apcs2.helperapp.main.MapsActivity" />
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        map:cardCornerRadius="20dp">
+
+        <SearchView
+            android:id="@+id/sr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#fff"
+            android:focusable="false"
+            android:queryHint="Area you want to rent!"
+            android:iconifiedByDefault="false"
+            >
+
+        </SearchView>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/swithButton"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/todo"
+            android:onClick="createForm"
+            android:scaleType="fitXY"
+            android:src="@drawable/image"
+            android:text="@string/createform"
+            />
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="#70CEF8"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/name_of_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="8dp"
+                    android:layout_marginEnd="7dp"
+                    android:fontFamily="cursive"
+                    android:scaleType="fitXY"
+                    android:text="Welcome Hoang Long !"
+                    android:textColor="#fff"
+                    android:textFontWeight="700"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageButton
+                android:id="@+id/logoutButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                android:onClick="logoutAccount"
+                android:scaleType="fitXY"
+                android:src="@drawable/logout"
+                android:text="@string/logout" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayoutShowDistance"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:background="#fff"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="15dp">
+                <ImageButton
+                    android:id="@+id/close_form"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:backgroundTint="#FF1100"
+                    android:onClick="close_map_direction"
+                    android:src="@drawable/close_24"
+                    android:tint="#fff" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/textViewDistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:drawableStart="@drawable/directions_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#2144F3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text="Distance" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/textViewTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:drawableStart="@drawable/driving_time"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#2144F3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text="Driving time" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/textViewTimeWalking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:drawableStart="@drawable/walking_time"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="#2144F3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text="Walking time" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/request_from"
+            android:visibility="gone"
+            android:fillViewport="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="900dp"
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:background="@drawable/form_back"
+                >
+
+                <ImageView
+
+                    android:id="@+id/imageView"
+                    android:layout_width="391dp"
+                    android:layout_height="56dp"
+                    android:layout_above="@id/eTitle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="16dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/add_a_house"
+                    android:text="@string/aaaaaaaaa" />
+
+
+                <EditText
+                    android:id="@+id/eTitle"
+
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_above="@+id/ePhone"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="35dp"
+                    android:autofillHints=""
+                    android:background="#fff"
+                    android:drawableStart="@drawable/bookmark_border_24"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/title"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+
+                    android:textSize="16sp" />
+
+                <com.santalu.maskara.widget.MaskEditText
+                    android:id="@+id/ePhone"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_alignStart="@+id/eTitle"
+                    android:layout_alignBottom="@+id/ePrice"
+                    android:layout_marginBottom="75dp"
+                    android:autofillHints=""
+
+                    android:background="#fff"
+                    android:drawableStart="@drawable/phonebook"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/phone_number"
+                    android:imeOptions="actionNext"
+                    app:mask="____ ___ ___"
+                    app:maskCharacter="_"
+                    app:maskStyle="normal"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/ePrice"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:drawableTint="#4CAF50"
+                    android:layout_alignStart="@+id/ePhone"
+                    android:layout_alignBottom="@+id/eLocation"
+                    android:layout_marginBottom="75dp"
+                    android:autofillHints=""
+                    android:background="#fff"
+                    android:drawableStart="@drawable/money"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/price"
+                    android:imeOptions="actionNext"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/eLocation"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_alignStart="@+id/ePrice"
+                    android:layout_alignBottom="@+id/current_location"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginBottom="50dp"
+                    android:autofillHints=""
+                    android:background="#fff"
+                    android:drawableStart="@drawable/location"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/location"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPostalAddress"/>
+
+                <CheckBox
+                    android:id="@+id/current_location"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/eLocation"
+                    android:layout_alignBottom="@+id/eDescription"
+                    android:layout_marginBottom="90dp"
+                    android:buttonTint="#8BC34A"
+                    android:onClick="choose_current_location"
+                    android:padding="20dp"
+                    android:text="@string/choose_current_location"
+                    android:textColor="#8BC34A"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+                <EditText
+                    android:id="@+id/eDescription"
+
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:layout_alignStart="@+id/current_location"
+                    android:layout_alignBottom="@+id/static_emergency_text"
+                    android:layout_marginBottom="45dp"
+                    android:autofillHints=""
+                    android:gravity="top"
+                    android:background="#fff"
+                    android:drawableStart="@drawable/description"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/description"
+                    android:imeOptions="actionNext"
+                    android:inputType="textMultiLine"
+                    android:maxLines="10"/>
+
+                <TextView
+                    android:id="@+id/static_emergency_text"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/current_location"
+                    android:layout_alignBottom="@+id/s_emergency"
+                    android:layout_marginBottom="20dp"
+                    android:drawableTint="#FF0606"
+                    android:gravity="center"
+                    android:text="Category"
+                    android:textColor="#FA0909"
+                    android:textSize="15sp"
+/>
+                <Spinner
+
+                    android:id="@+id/s_emergency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/error_from"
+                    android:layout_centerHorizontal="true"
+                    android:padding="0dp"
+                    android:spinnerMode="dialog"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_emergency"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/img_text"
+                    android:layout_below="@+id/s_emergency"
+                    android:layout_centerHorizontal="true"
+                    android:text="Choose image from:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                </TextView>
+                <LinearLayout
+                    android:id="@+id/section_take_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_text"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/section_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp">
+
+                    <ImageButton
+
+                        android:id="@+id/choose_from_grallery"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:background="@android:color/transparent"
+                        android:onClick="selectImage"
+                        android:src="@drawable/from_folder"
+                        android:tint="@color/colorAccent">
+
+                    </ImageButton>
+                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp">
+
+                        <ImageButton
+
+                            android:id="@+id/take_picture"
+                            android:layout_width="34dp"
+                            android:layout_height="44dp"
+                            android:background="@android:color/transparent"
+                            android:onClick="takePicture"
+                            android:src="@drawable/take_photo"
+                            android:tint="@color/colorAccent">
+
+                        </ImageButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textColor="#000"
+                    android:tag="default"
+                    android:id="@+id/preview_img_text"
+                    android:layout_below="@+id/section_take_img"
+                    android:layout_centerHorizontal="true"
+                    android:text="Preview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                </TextView>
+                <ImageView
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/image_24"
+                    android:id="@+id/img_demo"
+                    android:layout_below="@+id/preview_img_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp">
+
+                </ImageView>
+                <TextView
+                    android:id="@+id/error_from"
+                    android:paddingTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="9dp"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:text=""
+                    android:textColor="#FF0202"
+                    android:textStyle="italic"
+                    android:visibility="visible" />
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_below="@id/img_demo"
+                    android:id="@+id/cardView"
+                    android:paddingTop="5dp"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#3F51B5"
+
+                        android:onClick="saveMarker">
+
+                        <TextView
+
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="@string/save"
+                            android:textColor="#fff"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/cardView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    app:cardBackgroundColor="@color/colorAccent"
+                    app:cardCornerRadius="25dp"
+                    app:cardElevation="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#F44336">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:onClick="close_form"
+                            android:text="@string/discard"
+                            android:textColor="#ffff">
+
+                        </TextView>
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+
+                    android:id="@+id/staticLayout"
+                    android:visibility="invisible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/linearLayout"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="50dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_alignStart="@+id/imageView"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"></LinearLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/tennn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#3F51B5"
+
+                    android:onClick="saveMarker"
+                    android:text="@string/save"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/elen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#EF1606"
+                    android:onClick="close_form"
+                    android:text="@string/cancel"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <include layout="@layout/detail_request" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "219122285386",
+    "firebase_url": "https://midtermmoblie.firebaseio.com",
+    "project_id": "midtermmoblie",
+    "storage_bucket": "midtermmoblie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219122285386:android:bfcfada83a1a298cf85fb3",
+        "android_client_info": {
+          "package_name": "com.apcs2.midtermmoblie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219122285386-rh5f3hgpvf07l4pufjfahjs2s5q0lbfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9csJTBy8sVok0XqJ_9cYeS3V9-FQcJRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219122285386-rh5f3hgpvf07l4pufjfahjs2s5q0lbfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219122285386:android:e497acd863f85a1ff85fb3",
+        "android_client_info": {
+          "package_name": "com.example.helperapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219122285386-rh5f3hgpvf07l4pufjfahjs2s5q0lbfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9csJTBy8sVok0XqJ_9cYeS3V9-FQcJRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219122285386-rh5f3hgpvf07l4pufjfahjs2s5q0lbfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
